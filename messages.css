@@ -1,0 +1,188 @@
+body{
+    margin: 0px;
+
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+
+    height: 750px;
+}
+
+
+/* left side Container */
+.left-side{
+    margin: 0px;
+    grid-column: 1/3;
+    grid-row: 1/12;
+
+    background-color: #171717;
+
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+
+}
+
+.header{
+    margin: 0;
+    height: 50px;
+
+    background-color: #0275f0;
+    grid-column: 1/12;
+    grid-row: 1/3;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+
+}
+
+.profile-pic-left{
+    grid-column: 1/1;
+    grid-row: 1/1;
+
+    height: 40px;
+    width: 40px;
+
+    margin-top:5px ;
+    margin-left:5px ;
+
+    border-radius: 50%;
+}
+
+.header-name{
+    grid-column: 1/2;
+    grid-row: 1/1;
+
+    margin-top: 15px;
+    margin-left: 60px;
+
+}
+
+.icon{
+    grid-column: 3/3;
+    grid-row: 1/1;
+
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+/* left side second row start */
+
+.headings{
+    margin: 0;
+
+    grid-column: 1/12;
+    grid-row: 2/3;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+
+    height: 40px;
+    color: white;
+
+}
+
+.headings-matches{
+    grid-column: 1/1;
+    grid-row: 1/1;
+
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.headings-messages{
+    margin-top: 10px;
+
+    grid-column: 2/3;
+    grid-row: 1/1;
+
+    text-decoration: underline;
+}
+
+/* left dog messages */
+.message-container{
+    grid-column: 1/3;
+    grid-row: 3/12;
+
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    height: 70px;
+}
+
+.dog1-pic-left{
+
+    grid-column: 1/3;
+    grid-row: 1/4;
+
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.dog-name{
+    grid-column: 1/3;
+    grid-row: 1/4;
+
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+.dog-message{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    
+    margin-top: 15px;
+    margin-left: 75px;
+    
+}
+
+
+/* right side start */
+.right-side{
+    margin: 0px;
+    grid-column: 3/12;
+    grid-row: 1/12;
+
+    background-color: black;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+/* Middle Messages */
+
+.middle-messages{
+    grid-column: 1/9;
+    grid-row: 1/12;
+
+    border: 1px solid rgb(83, 83, 83);
+    color: white;
+}
+
+
+
+/* right profile */
+.right-profile{
+    grid-column: 9/13;
+    grid-row: 1/12;
+
+    border: 1px solid rgb(83, 83, 83);
+
+}
+
+.dog-full-pic{
+    width: 420px;
+}
+
+
