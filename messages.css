@@ -168,9 +168,29 @@ body{
 
     border: 1px solid rgb(83, 83, 83);
     color: white;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
 }
 
 
+.middle-top-bar{
+    grid-column: 1/12;
+    grid-row: 1/1;
+}
+
+.middle-messages-area{
+    grid-column: 1/13;
+    grid-row: 2/11;
+
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.middle-bottom-writing{
+    grid-column: 1/12;
+    grid-row: 12/13;
+}
 
 /* right profile */
 .right-profile{
